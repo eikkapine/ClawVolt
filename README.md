@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:0f3460,100:00ccff&height=220&section=header&text=⚡%20ClawVolt&fontSize=72&fontColor=00ff88&fontAlignY=38&desc=Real-time%20Dynamic%20GPU%20Voltage%20Controller&descAlignY=58&descSize=20&descColor=eaeaea&animation=fadeIn" width="100%"/>
+
 # ⚡ ClawVolt
 
 **Real-time Dynamic GPU Voltage Controller for AMD Radeon RX 9070 XT**
@@ -20,6 +22,9 @@
 
 </div>
 
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f3460,100:1a1a2e&height=3" width="100%"/>
 ---
 
 ## 📖 Contents
