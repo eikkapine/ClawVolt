@@ -301,7 +301,7 @@ Open a **Developer Command Prompt for VS 2022** (search the Start menu for it â€
 Navigate to the bridge folder and build:
 
 ```
-cd ClawVolt\bridge
+cd bridge
 
 cmake -B build -DADLX_SDK_DIR="C:\full\path\to\ADLX" -A x64
 
