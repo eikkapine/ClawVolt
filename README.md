@@ -306,8 +306,6 @@ cmake -B build -DADLX_SDK_DIR="../ADLX" -A x64
 cmake --build build --config Release
 ```
 
-Replace `C:\full\path\to\ADLX` with the actual folder where you cloned the SDK in Step 5.
-
 A successful build ends with:
 ```
 adlx_bridge.vcxproj -> ...\bridge\build\Release\adlx_bridge.exe
@@ -316,7 +314,7 @@ adlx_bridge.vcxproj -> ...\bridge\build\Release\adlx_bridge.exe
 Copy the bridge:
 
 ```
-copy build\Release\adlx_bridge.exe ..\..\ClawVolt-main\ClawVolt-main\src\
+copy build\Release\adlx_bridge.exe ..\src\
 ```
 
 ---
