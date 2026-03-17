@@ -375,7 +375,7 @@ py -3.12 src\claw_volt_cli.py
 If you want a double-clickable `.exe` that doesn't require Python installed:
 
 ```cmd
-builduild_exe_py312.bat
+build_exe_py312.bat
 ```
 
 Output: `build\dist\ClawVolt\ClawVolt.exe`
