@@ -288,8 +288,6 @@ py -3.12 -m pip install pywin32 pyinstaller
 git clone https://github.com/GPUOpen-LibrariesAndSDKs/ADLX.git
 ```
 
-Note the full path where it cloned — you will need it in the next step.
-
 > `ADLX.dll` is already on your PC from AMD Adrenalin. You only need the SDK for the C++ headers.
 
 ---
@@ -303,7 +301,7 @@ Navigate to the bridge folder and build:
 ```
 cd bridge
 
-cmake -B build -DADLX_SDK_DIR="C:\full\path\to\ADLX" -A x64
+cmake -B build -DADLX_SDK_DIR="../ADLX" -A x64
 
 cmake --build build --config Release
 ```
@@ -315,10 +313,10 @@ A successful build ends with:
 adlx_bridge.vcxproj -> ...\bridge\build\Release\adlx_bridge.exe
 ```
 
-Copy the bridge to the repo root:
+Copy the bridge:
 
 ```
-copy "build\Release\adlx_bridge.exe" "..\adlx_bridge.exe"
+copy build\Release\adlx_bridge.exe ..\..\ClawVolt-main\ClawVolt-main\src\
 ```
 
 ---
