@@ -318,7 +318,7 @@ adlx_bridge.vcxproj -> ...\bridge\build\Release\adlx_bridge.exe
 Copy the bridge to the repo root:
 
 ```
-copy bridge\build\Release\adlx_bridge.exe .
+copy "build\Release\adlx_bridge.exe" "..\adlx_bridge.exe"
 ```
 
 ---
