@@ -345,12 +345,13 @@ MGT2_VOLT_RANGE:-200-0,step=1
 
 ---
 
-### Step 8 — Run ClawVolt (If you want vram control you have to build the standalone .exe in the next step!)
+### Step 8 — Run ClawVolt (If you want vram & power limit control, you have to build the standalone .exe in the next step!)
 
 > ⚠️ Right-click your terminal and select **Run as Administrator** before running ClawVolt.
 
 **GUI (recommended):**
 ```
+cd..
 py -3.12 src\claw_volt_gui.py
 ```
 
