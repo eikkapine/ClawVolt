@@ -345,7 +345,7 @@ MGT2_VOLT_RANGE:-200-0,step=1
 
 ---
 
-### Step 8 — Run ClawVolt
+### Step 8 — Run ClawVolt (If you want vram control you have to build the standalone .exe in the next step!)
 
 > ⚠️ Right-click your terminal and select **Run as Administrator** before running ClawVolt.
 
